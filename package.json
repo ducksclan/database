@@ -10,7 +10,10 @@
         "build": "webpack",
         "test": "mocha"
     },
-    "dependencies": {},
+    "dependencies": {
+        "reflect-metadata": "^0.1.13",
+        "typeorm": "^0.3.6"
+    },
     "devDependencies": {
         "@types/node": "^17.0.24",
         "ts-loader": "^9.2.8",
